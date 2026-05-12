@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    background-color: grey;
+    background-image:url(../img/Lospolloshermanos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    background-color: rgb(255, 212, 131);
+    width: 100%;
+    position: fixed;
+    padding: clamp(6px, 2vw, 12px) 8%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid black; 
+    z-index: 9999;     
+}
+.topmenu a{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+            background-color: #af0f04;
+            border-left: 20px solid rgb(126, 12, 12);
+            display: block;
+            padding: 2em;
+            border-radius: 30px;
+            margin: 0px;
+            width: 180px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        
+        .topmenu a:hover{
+            color: yellow;
+        }
+
+        .topmenu ul{
+            list-style-type:none;
+            display: flex;
+            margin-right: 200px;
+            
+        }
+        .topmenu li{
+            margin-right: 20px;
+            text-align: center;
+        }
+        
+        article{
+            margin-top: 200px;
+            margin-top: 50px;
+            margin-left: 200px;
+            border: 3px solid black;
+            border-radius: 10px;
+            padding: 30px;
+            background-color: bisque;
+            opacity: 0.7;
+            width: 900px;
+            font-size: large;
+            
+            }
+        
+            .hlavninadpis{
+           margin-left: 710px;
+           margin-top: 160px;
+           font-size: 50px; 
+           font-family: cursive;
+           text-shadow: 4px 3px 3px #ffd900;
+           color: rgb(255, 0, 0);
+             }
+             article{
+                margin-top: 200px;
+                margin-top: 50px;
+                margin-left: 200px;
+                border: 3px solid black;
+                border-radius: 10px;
+                padding: 30px;
+                background-color: bisque;
+                opacity: 0.7;
+                width: 900px;
+                font-size: large;
+                }
+                h2{
+                    font-family: Lucida handwriting;
+                }
+                .green{
+                 color: green;
+                }
+                .red{
+                 color:red
+                }
+                footer{
+                    display: grid;
+                    background-color: rgb(0, 0, 0);
+                    height: 150px;
+                    margin-top: 100px;
+                    color: aliceblue;
+                }
+                .footer-left{
+                    padding: 20px;
+                    margin-left: 30px;
+                    margin-top: 70px;
+                    font-size: larger;
+                    
+                }
+                .footer-right{
+                 margin-right: 120px;
+                 margin-top: -130px;
+                 padding: 30px;
+                }
+                .imgspsmb{
+                    width: 150px;
+                    height: 75px;
+                    border-radius: 30px;
+                }
+                .kontakt{
+                    width: 500px;
+                }
+                h1{
+                    margin-left:  650px;
+                    text-shadow: 4px 3px 3px #ffd900;
+                    color: rgb(255, 0, 0);
+                    font-family: cursive;
+                    font-size: 40px;
+                }
+                .video{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 10px;
+                }
+                
+                .container{
+                    width: 600px;
+                    margin-left: 500px;
+                }
