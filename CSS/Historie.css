@@ -117,4 +117,42 @@ nav{
        h2{
         font-family: Lucida handwriting;
     }
+
+    /* mobile responz */
+    @media screen and (max-width: 768px) {
+        nav {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            padding: 8px;
+        }
+
+        nav img {
+            width: 100px;
+            margin-bottom: -20px;
+            margin: auto;
+        }
+
+        .topmenu ul {
+            gap: 10px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-self: center;
+            padding-right: 35px;
+            
+        }
+
+        .topmenu li {
+            margin: auto;
+        }
+
+        .topmenu a {
+            width: 160px;
+            padding: 1.2em;
+            font-size: 0.9em;
+            border-left: 15px solid rgb(126, 12, 12);
+        }
+    }
             

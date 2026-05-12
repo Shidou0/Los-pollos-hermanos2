@@ -78,7 +78,7 @@ nav img {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 align-self: center;
-                padding-right: 10px;
+                padding-right: 35px;
                 
             }
 
@@ -185,13 +185,7 @@ nav img {
                     font-family: Lucida handwriting;
                 }
 
-                /*mobile responz*/
-                @media screen and (max-width:768px){
-                    nav{
-                        
-                    }
-                    
-                }
+                
 
                 /*tablet responz*/
                 @media screen and (max-width:1024px){
